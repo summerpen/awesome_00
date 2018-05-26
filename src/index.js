@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 class Square extends React.Component {
@@ -162,10 +162,11 @@ class ShoppingList extends React.Component {
             </div>
         )
     }
-}
+}   
 
 ReactDOM.render(
     <div>
+         <App/>
         <Game/>
         <ShoppingList/>
     </div>,
